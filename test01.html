@@ -3,8 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <script type="text/javascript" src="jquery/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+        });
+    </script>
+
+    <style type="text/css">
+
+        ul{
+            list-style: none;
+            float: left;
+        }
+
+        li{
+            float:left;
+            margin-right: 20px;
+        }
+
+        ul.displayNone{
+            display: none;
+        }
+
+        div.clear{
+            clear: both;
+        }
+
+        div.rec{
+            background-color: #ffff00;
+            width: 600px;
+            height: 300px;
+        }
+
+    </style>
 </head>
 <body>
+<ul class="sub_menu">
+    <li id="YearList"><a href="">year</a></li>
+    <li id="ToolList"><a href="">tool</a></li>
+    <li id="ProgramList"><a href="">program</a></li>
+    <li id="TypeList"><a href="">type</a></li>
+</ul>
+
+<div class="clear"></div>
+
+<ul id="subYearList" class="sub_sub_menu">
+    <li><a href="">all</a></li>
+    <li><a href="">2010</a></li>
+    <li><a href="">2011</a></li>
+    <li><a href="">2012</a></li>
+</ul>
+
+<ul id="subToolList" class="sub_sub_menu displayNone">
+    <li><a href="">all</a></li>
+    <li><a href="">tool01</a></li>
+    <li><a href="">tool02</a></li>
+    <li><a href="">tool03</a></li>
+</ul>
+
+<ul id="subProgramList" class="sub_sub_menu displayNone">
+    <li><a href="">all</a></li>
+    <li><a href="">program01</a></li>
+    <li><a href="">program02</a></li>
+    <li><a href="">program03</a></li>
+</ul>
+
+<ul id="subTypeList" class="sub_sub_menu displayNone">
+    <li><a href="">all</a></li>
+    <li><a href="">type01</a></li>
+    <li><a href="">type02</a></li>
+    <li><a href="">type03</a></li>
+</ul>
+
+<div class="clear"></div>
+
+<div class="rec">
+
+</div>
 
 </body>
 </html>
